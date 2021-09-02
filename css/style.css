@@ -283,7 +283,8 @@ iframe{
 
 @media(max-width: 600px){
 	.box-tanggal-akad{
-		margin: 80px;
+		border: 1px solid white;
+		min-height: 300px;
 	}
 
 	.location{
