@@ -1,0 +1,478 @@
+*{
+	font-family: 'Lato', sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body{
+	background-color: #395922;
+}
+
+/*pink : #f1356d*/
+
+nav{
+	width: 100%;
+	height: 80px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+/*	border-bottom: 1px solid #f2f2f2;*/
+	line-height: 60px;
+	z-index: 9999;
+	 transition: top 0.3s;
+	 display: block;
+}
+
+
+
+ul li a{
+	font-size: 20px;
+	color: #ffffff;
+}
+
+ul li a:hover{
+	color: white;
+}
+
+
+.nav-brand{
+	font-size: 48px;
+	font-weight: bold;
+	margin-top: 4px;
+	font-family: 'Style Script', cursive;
+	color: #F2B705;
+}
+
+.nav-brand:hover{
+	color: #FFA500;
+}
+
+.background-home{
+	width: 100%;
+	height: 660px;
+	background-image: url('../img/IMG-20210409-WA0073.jpg');
+	background-size: cover;
+	position: relative;
+	background-position: center top;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+}
+
+.background-home .container{
+    position: relative;
+    z-index: 10;
+}
+
+.background-home::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top, rgba(0,0,0,.7), rgba(0, 0, 0, .4));
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+
+.person-name{
+	position: absolute;
+	z-index: 80;
+	color: white;
+	font-size: 72px;
+	margin-top: 300px;
+	width: 100%;
+	height: 300px;
+	font-family: 'Alex Brush', cursive;
+}
+
+.the-wedding{
+	font-size: 32px;
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+.name{
+	font-family: 'Style Script', cursive;
+	text-align: center;
+	cursor: pointer;
+	font-weight: 500;	
+}
+
+.name span{
+		font-family: 'Style Script', cursive;
+	}
+
+.time{
+	font-size: 28px;
+}
+
+
+.mempelai{
+	width: 100%;
+	min-height: 550px;
+	position: absolute;
+	color: #fff;
+	padding: 70px 0px 60px 0px;
+}
+
+.basmallah{
+	font-family: 'Scheherazade', serif;
+	font-size: 42px;
+}
+
+.pembuka{
+	font-size: 23px;
+	text-align: center;
+	margin-top: 15px;
+}
+
+
+.foto{
+	width: 75%;
+	height: 260px;
+	background-color: #fff;
+	border-radius: 50%;
+	margin: 0px auto;
+	overflow: hidden;
+}
+
+.foto-pria{
+	width: 90%;
+	margin: 7.5% 0% 0% 10%;
+}
+
+.foto-wanita{
+	width: 90%;
+	margin: 7.5% 0% 0% 5%;
+}
+
+.logo-Dan{
+	text-align: center;
+	height: 280px;
+	width: 100%;
+	line-height: 280px;
+}
+
+.logo-Dan h1{
+	text-align: center;
+	line-height: 500px;
+	font-size: 9.3rem;
+	font-family: 'Style Script', cursive;
+}
+
+
+.keterangan-mempelai{
+	width: 130%;
+	height: 130px;
+	padding: 10px 15px;
+	box-sizing: border-box;
+	text-align: center;
+	margin-top: 15px;
+	margin-left: -15%;
+}
+
+.ket-nama-mempelai{
+	font-family: 'Style Script', cursive;
+	font-size: 32px;
+	letter-spacing: 1.5px;
+}
+
+.anak-ke{
+	font-size: 17px;
+	margin-top: 10px;
+	font-weight: 500;
+}
+
+.orang-tua{
+	font-size: 18.5px;
+	margin-top: 15px;
+}
+
+
+.location{
+	margin-top: 120px;
+}
+
+
+.text-location{
+	font-size: 23px;
+	font-weight: 400;
+	margin-bottom: 15px;
+}
+
+
+.salam{
+	font-family: 'Scheherazade', serif;
+	text-align: center;
+	font-size: 42px;
+}
+
+.hormat{
+	font-size:22px;
+}
+
+
+.kamis{
+	font-size: 23px;
+}
+
+.date-21,
+.oktober{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.date-21 h1{
+	text-align: right;
+	font-size: 56px;
+	font-weight: bold;
+}
+
+.oktober h3{
+	margin-left: 7.5px;
+	font-size: 18px;
+	line-height: 25px;
+	margin-top: 10px;
+}
+
+
+.box-tanggal-akad{
+	width: 100%;
+	height: 200px;
+	padding:  30px 10px;
+	margin: 45px 0px;
+	margin-bottom: 90px;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+.box-tanggal-akad h4{
+	font-family: 'Style Script', cursive;
+	font-size: 36px;
+}
+
+.box-tanggal-akad p {
+	font-size: 18.5px;
+}
+
+.box-tanggal-akad span {
+	font-size:  18px;
+}
+
+iframe{
+	height: 600px;
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 600px){
+
+	.location{
+		margin-top: 80px;
+	}
+
+	nav{
+		width: 100%;	
+	}
+
+	ul li{
+		width: 25%;
+		text-align: center;
+		height: 35px;
+		line-height: 17.5px;
+		margin-top: 50px;
+		margin-bottom: 0px;
+	}
+
+	ul li:nth-child(4){
+		position: absolute;
+		margin-left: 120px;
+	}
+
+	ul li a{
+		font-size: 18px;
+	}
+
+	.nav-brand{
+		font-size: 42px;
+		position: absolute;
+		top: 0px;
+		text-align: center;
+		left: 0px;
+		right: 0px;
+		width: 100%;
+		margin-top: 15px;
+	}
+
+
+	.background-home{
+		width: 100%;
+		margin-right: 0px;
+	}
+
+	.the-wedding{
+		font-size: 20px;
+		margin-bottom: 30px;
+	}
+
+	.name{
+		font-size: 38px;
+	}
+
+	.name span{
+		font-size: 48px;
+		font-family: 'Style Script', cursive;
+	}
+
+	.time{
+		margin-top: 20px;
+		font-size: 23px;
+	}
+
+	.person-name{
+		color: white;
+		max-width: 90%;
+		margin-top: 240px;
+		font-size: 42px;
+		line-height: 110%;
+	}
+
+
+
+	.basmallah{
+		font-size: 36px;
+	}
+
+	.pembuka{
+		font-size: 19px;	
+		margin: 0px;
+		padding-top: 15px;
+	}
+
+	.foto{
+		max-width: 100%;
+	}
+
+	.logo-Dan{
+		text-align: center;
+		height: 180px;
+	}
+
+	.logo-Dan h1{
+		line-height: 200px;
+	}
+
+	.keterangan-mempelai{
+		max-width: 100%;
+		margin-left: 0px;
+	}
+
+	.salam{
+		font-size: 36px;
+		margin-bottom: 10px;
+	}
+
+	.hormat{
+		font-size: 18px;
+	}
+
+	.kamis{
+		margin-top: 15px;
+	}
+
+	.date-21 h1{
+		text-align: center;
+	}
+
+	.oktober{
+		margin-top: -7px;
+		text-align: center;
+	}
+
+	.oktober h3{
+		font-size: 23px;
+	}
+
+	.box-tanggal-akad{
+		margin: 15px 0px;
+	}
+
+	.text-location{
+		margin-top: 30px;
+	}
+
+	iframe{
+		height: 350px;
+	}
+
+	.peta{
+		margin-top: 90px;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.wrap-info{
+	width: 100%;
+	height: 180px;
+	border: 2px solid #fff;
+	border-radius: 8px;
+	margin: 35px 15px 0px 15px;
+	cursor: pointer;
+	padding: 0px 10px;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.wrap-info .main-info{
+	text-align: center;
+	font-size: 25px;
+}
+
+.date,
+.jam,
+.Loc{
+	width: 100%;
+	height: 40px;
+	font-size: 21.5px;
+	margin-top: -10px;
+	margin-bottom: 10px;
+	line-height: 40px;
+}
+.far{
+	font-size: 25px;
+	margin-right: 10px;
+}*/
