@@ -282,6 +282,9 @@ iframe{
 
 
 @media(max-width: 600px){
+	.box-tanggal-akad{
+		margin: 80px;
+	}
 
 	.location{
 		margin-top: 80px;
